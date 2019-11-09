@@ -174,12 +174,11 @@ footer {
 
   #contactform ul {
     margin-bottom: 30px;
-    list-style-type: none;
-   }
+    }
   
   #contactform li {
     margin-bottom: 20px;
-  }
+    }
   
   label,
   input[type=text],
