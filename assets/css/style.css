@@ -26,10 +26,6 @@ p {
   margin-bottom: 20px;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
 h1,
 h2 {
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -131,4 +127,50 @@ footer {
     background: #ffffff;
     border: 1px solid #dddddd;
   }
+
+  .profilepic {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+  
+/* Portfolio */
+
+.example {
+    position: relative;
+    float: left;
+    width: 275px;
+    margin: 20px 0 20px;
+    overflow: auto;
+  }
+  
+  .example:nth-child(even) {
+    margin-right: 50px;
+  }
+  
+  .example img {
+    width: 100%;
+    border: 0 none;
+    opacity: 1;
+  }
+  
+  .example h2 {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 15px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+
+  /* Contact */
+  
+  
   
